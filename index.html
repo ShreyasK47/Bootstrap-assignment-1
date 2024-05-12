@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Bean </title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mr. Bean</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#movies">Movies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="src/car1.jpg" class="d-block w-100" alt="bean">
+            </div>
+            <div class="carousel-item">
+                <img src="src/car2.jpg" class="d-block w-100" alt="bean">
+            </div>
+            <div class="carousel-item">
+                <img src="src/car3.jpg" class="d-block w-100" alt="bean">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Mr.Bean</h2>
+                    <p>Mr. Bean, with his iconic mop of hair, rubbery face, and a wardrobe that seems to defy fashion
+                        norms, has become a beloved character in the world of comedy. Portrayed by the talented Rowan
+                        Atkinson, Mr. Bean is a curious, childlike man who finds himself in a series of misadventures,
+                        often caused by his own innocent clumsiness and misunderstanding of the world around him.
+                        Despite his lack of verbal communication, his expressions and actions speak volumes, bringing
+                        laughter to audiences worldwide. Whether he's getting into trouble at the department store,
+                        causing chaos at a fancy dinner party, or simply navigating the challenges of everyday life, Mr.
+                        Bean's charm lies in his ability to turn the ordinary into the extraordinary, all with a
+                        delightful touch of absurdity. Through his timeless antics, Mr. Bean reminds us to embrace
+                        life's quirks and never underestimate the power of laughter.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="src/about.jpg" alt="About mr bean Image" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="movies" class="mt-5">
+        <div class="container">
+            <h2>Movies</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="src/movie1.jpg" class="card-img-top" alt="movie 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Bean</h5>
+                            <p class="card-text">Bean (also known as Bean: The Ultimate Disaster Movie or Bean: The
+                                Movie) is a 1997 comedy film directed by Mel Smith and written by Richard Curtis and
+                                Robin Driscoll.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="src/movie2.jpg" class="card-img-top" alt="movie 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Mr. Bean's Holiday</h5>
+                            <p class="card-text">Mr. Bean's Holiday is a 2007 comedy film directed by Steve Bendelack
+                                and written by Hamish McColl and Robin Driscoll, from a story penned by Simon McBurney.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="src/movie3.jpg" class="card-img-top" alt="movie 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Johnny English</h5>
+                            <p class="card-text">Johnny English is a 2003 spy action comedy film directed by Peter
+                                Howitt and written by Neal Purvis, Robert Wade and William Davies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion Section -->
+    <section id="accordion" class="mt-5">
+        <div class="container">
+            <h2>Shows</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Mr. Bean (TV Show)
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p> Mr. Bean is a British sitcom created by Rowan Atkinson and Richard Curtis, produced
+                                    by Tiger Aspect Productions and starring Atkinson as the eponymous title character.
+                                    The sitcom consists of 15 episodes that were co-written by Atkinson alongside Curtis
+                                    and Robin Driscoll; the pilot was co-written by Ben Elton. The series was originally
+                                    broadcast on ITV, beginning with the pilot on 1 January 1990[1] and ending with "The
+                                    Best Bits of Mr. Bean" on 15 December 1995.</p>
+                                <p> Based on a character developed by Atkinson while he was studying for his master's
+                                    degree at the University of Oxford, the series centres on Mr. Bean, described by
+                                    Atkinson as "a child in a grown man's body", as he solves various problems presented
+                                    by everyday tasks and often causes disruption in the process.[2] The series has been
+                                    influenced by physical comedy actors such as Jacques Tati and those from early
+                                    silent films.</p>
+                                <p> During its original five-year run, Mr. Bean was met with widespread acclaim and
+                                    attracted large television audiences. The series was viewed by 18.74 million viewers
+                                    for the episode "The Trouble with Mr. Bean"[3] and has received a number of
+                                    international awards, including the Rose d'Or. The series has since been sold in 245
+                                    territories worldwide. It has inspired an animated spin-off and two theatrical
+                                    feature-length films along with Atkinson reprising his role as Mr. Bean for a
+                                    performance at the London 2012 Summer Olympics opening ceremony, television
+                                    commercials and several sketches for Comic Relief. The programme carries strong
+                                    appeal in hundreds of territories worldwide because, in addition to the acclaim from
+                                    its original run, it uses very little intelligible dialogue, making it accessible to
+                                    people who know little or no English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Mr. Bean: The Animated Series
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Mr. Bean: The Animated Series (simply known as Mr. Bean) is a British animated sitcom
+                                    produced by Tiger Aspect Productions in association with Richard Purdum Productions
+                                    and Varga Holdings (for the first season). Based on the live-action television
+                                    sitcom of the same title created by Rowan Atkinson and Richard Curtis, the sitcom
+                                    centers on Mr. Bean, Teddy, Irma Gobb, the Reliant Regal's mysterious driver, Mrs.
+                                    Wicket and her evil cat Scrapper. In February 2001, the series was officially
+                                    announced, with it premiering shortly afterwards.</p>
+                                <p>Debuting on 5 January 2002 and originally ending on 2 June 2004, the first three
+                                    seasons featuring 52 episodes in total were broadcast, each consisting of two
+                                    11-minute segments. The first two seasons were originally broadcast on ITV at a
+                                    Saturday night slot. In May 2004, the sitcom left the Saturday night slot and the
+                                    third season was instead broadcast daily on CITV due to the show's popularity with
+                                    younger audiences.</p>
+                                <p>In January 2014, a revival of the sitcom was announced, with Rowan Atkinson returning
+                                    as the voice of Mr. Bean, along with other cast members reprising their roles. The
+                                    revival premiered on 16 February 2015 and ended on 8 October 2019 on CITV.[5] It
+                                    contained more actual dialogue than in the original live-action sitcom, which mostly
+                                    featured little sound effects and mumbling.</p>
+                                <p>In January 2024, another revival was announced, set to release in 2025 on ITVX in the
+                                    United Kingdom and Cartoonito in Europe.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button Section -->
+    <section id="button" class="mt-5">
+        <div class="container">
+            <h2>Primary Button</h2>
+            <button type="button" id="backToTopBtn" class="btn btn-primary">Back to Top</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 Mr. Bean Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

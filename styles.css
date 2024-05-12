@@ -1,0 +1,105 @@
+/* Custom CSS styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #343a40 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.accordion-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.accordion-item .card-header {
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+}
+
+.accordion-item .card-header h5 {
+    margin: 0;
+}
+
+.accordion-item .card-body {
+    padding: 20px;
+}
+
+.accordion-item .btn-link {
+    color: #ffffff;
+}
+
+.accordion-item .btn-link:hover {
+    color: #ffc107;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+#button {
+    margin-bottom: 50px;
+}
